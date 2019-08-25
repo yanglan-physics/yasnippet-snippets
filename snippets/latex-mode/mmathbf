@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: mtextbf
+# key: mmb
+# --
+$\mathbf{$1}$$0

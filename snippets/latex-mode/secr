@@ -1,0 +1,7 @@
+ -*- mode: snippet -*-
+# contributor : Márcio M. Ribeiro <marcio.mr@gmail.com>
+# key: secr
+# group: references
+# name : secr
+# --
+Section~\ref{sec:$1}$0

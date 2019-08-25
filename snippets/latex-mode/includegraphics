@@ -1,5 +1,7 @@
 # -*- mode: snippet -*-
 # name: includegraphics
 # key: ig
+#\includegraphics${1:[$2]}{$0}
+#changed 20180117_122002 -YL
 # --
-\includegraphics${1:[$2]}{$0}
+\includegraphics[width=$1\textwidth]{$2}$0

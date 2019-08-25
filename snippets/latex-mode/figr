@@ -1,0 +1,7 @@
+ -*- mode: snippet -*-
+# contributor : Márcio M. Ribeiro <marcio.mr@gmail.com>
+# key: figr
+# group: references
+# name : figr
+# --
+Figure~\ref{fig:$1}$0

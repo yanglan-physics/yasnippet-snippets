@@ -1,0 +1,7 @@
+ -*- mode: snippet -*-
+# contributor : Márcio M. Ribeiro <marcio.mr@gmail.com>
+# key: eqr
+# group: references
+# name : eqr
+# --
+Eq.~(\ref{eq:$1})$0

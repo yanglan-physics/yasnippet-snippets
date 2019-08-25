@@ -1,8 +1,9 @@
 # -*- mode: snippet -*-
+#added % to avoid blank space: https://tex.stackexchange.com/questions/241842/why-subfigure-doesnt-occupy-the-full-textwidth
 # name: subf
-# key: sf
+# key: subf
 # --
 \subfigure[${1:caption}]{
   \label{fig:${2:label}} 
-  \includegraphics[width=.${3:3}\textwidth]{${4:path}}}
-$0
+  \includegraphics[width=.${3:3}\textwidth]{${4:path}}
+  }%$0

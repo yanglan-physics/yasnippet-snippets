@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: textbf
+# key: t
+# --
+{\it $1}$0

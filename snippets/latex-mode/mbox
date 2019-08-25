@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+#https://latex.org/forum/viewtopic.php?t=17498
+# name: mbox
+# key: mbox
+# --
+\noindent\makebox[${1:width}\textwidth]{
+${2:figures}
+}$0

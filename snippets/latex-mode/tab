@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor : Mads D. Kristensen <madsdk@gmail.com>
+# key: tab
+# group: environments
+# name : tab
+# --
+\begin{tabular}{$1}
+ $2
+\end{tabular}
+$0
