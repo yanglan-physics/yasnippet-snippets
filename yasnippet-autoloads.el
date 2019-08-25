@@ -1,9 +1,9 @@
 ;;; yasnippet-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "yasnippet" "yasnippet.el" (22341 18505 0 0))
+;;;### (autoloads nil "yasnippet" "yasnippet.el" (23283 16622 0 0))
 ;;; Generated autoloads from yasnippet.el
 
 (autoload 'yas-minor-mode "yasnippet" "\
@@ -24,7 +24,8 @@ Key bindings:
 
 (defvar yas-global-mode nil "\
 Non-nil if Yas-Global mode is enabled.
-See the command `yas-global-mode' for a description of this minor mode.
+See the `yas-global-mode' command
+for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `yas-global-mode'.")
@@ -42,16 +43,7 @@ Yas minor mode is enabled in all buffers where
 See `yas-minor-mode' for more information on Yas minor mode.
 
 \(fn &optional ARG)" t nil)
-
-(autoload 'snippet-mode "yasnippet" "\
-A mode for editing yasnippets
-
-\(fn)" t nil)
-
-;;;***
-
-;;;### (autoloads nil nil ("yasnippet-pkg.el") (22341 18505 785000
-;;;;;;  0))
+(autoload 'snippet-mode "yasnippet" "A mode for editing yasnippets" t nil)
 
 ;;;***
 

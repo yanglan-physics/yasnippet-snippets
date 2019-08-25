@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: subp
+# key: subp
+# --
+fig, axes = plt.subplots(${1:2}, ${2:1}, sharey=True)
+$0

@@ -1,1 +1,4 @@
 **/.yas-compiled-snippets.el
+*.el
+*~
+*#*
